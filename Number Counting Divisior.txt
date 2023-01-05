@@ -1,0 +1,124 @@
+#include<iostream>
+using namespace std;
+void First_count(int n)
+{
+	n;
+	int per_1;
+	int no;
+	int num;
+	int count_1;
+	
+	if(n==2)
+	{
+		cout<<"How many Numbers do you Want to write.....";
+		cin>>no;
+		for(int x=1 ; x<=no ; x++)
+	{
+		cout<<"Enter Number...";
+		cin>>num;
+		if(num%2==0)
+		{
+			count_1++;
+		}
+	}
+	cout<<"Total Numbers Divisible by 2="<<count_1<<endl;
+	 per_1=(count_1/10.0)*100.0;
+	 cout<<"P1="<<per_1<<endl;
+	}
+}
+
+void Second_count(int n)
+{
+	n;
+	int per_1;
+	int no;
+	int num;
+	int count_1;
+	
+	if(n==3)
+	{
+		cout<<"How many Numbers do you Want to write.....";
+		cin>>no;
+		for(int x=1 ; x<=no ; x++)
+	{
+		cout<<"Enter Number...";
+		cin>>num;
+		if(num%3==0)
+		{
+			count_1++;
+		}
+	}
+	cout<<"Total Numbers Divisible by 3="<<count_1<<endl;
+	 per_1=(count_1/10.0)*100.0;
+	 cout<<"P2="<<per_1<<endl;
+	}
+}
+
+void Third_count(int n)
+{
+	n;
+	int per_1;
+	int no;
+	int num;
+	int count_1;
+	
+	if(n==4)
+	{
+		cout<<"How many Numbers do you Want to write.....";
+		cin>>no;
+		for(int x=1 ; x<=no ; x++)
+	{
+		cout<<"Enter Number...";
+		cin>>num;
+		if(num%4==0)
+		{
+			count_1++;
+		}
+	}
+	cout<<"Total Numbers Divisible by 4="<<count_1<<endl;
+	 per_1=(count_1/10.0)*100.0;
+	 cout<<"P3="<<per_1<<endl;
+	}
+}
+
+main()
+{
+
+int n;
+cout<<"Which divisior do you want to Write....";
+	cin>>n;
+	if(n==2)
+	{
+		First_count(2);
+	}
+		if(n==3)
+	{
+		Second_count(3);
+	}
+		if(n==4)
+	{
+		Third_count(4);
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

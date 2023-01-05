@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int frequency_checker(int num, int digit)
+{
+	int count=0;
+	while(num!=0)
+	{
+		int a=num%10;
+		if(a==digit)
+		{
+			count++;
+			
+		}
+		num=num/10;
+	}
+	return count;
+}
+main()
+{
+	int num, digit;
+	cout<<"ENter a number for table...";
+	cin>>num;
+	cout<<"Enetr the digit...";
+	cin>>digit;
+	cout<<"Total"<<digit<<"in the number"<<num<<"are.........."<<frequency_checker(num,digit);
+} 

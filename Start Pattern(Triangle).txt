@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+
+
+	
+
+main()
+{
+	int row,col;
+	cout<<"Enter the numbers of rows...";
+	cin>>row;
+	cout<<"Enter the numbers of col...";
+	cin>>col;
+	for(int i=row ; i<=col ; i++)
+	{
+		for(int j=row ; j<=i ; j++)
+		{
+			cout<<"*";
+		}
+		cout<<"  "<<endl;
+	}
+
+
+} 

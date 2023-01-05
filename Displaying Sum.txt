@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int show(int start, int end)
+{
+	int sum=0;
+	for(int i=start ; i<=end ; i++)
+	{
+		sum=sum+i;
+	}
+	return sum;
+}
+main()
+{
+	int s,e;
+	cout<<"Enter the starting point...";
+	cin>>s;
+	cout<<"Enter the ending point...";
+	cin>>e;
+  	cout<<"sum="<<show(s,e);
+} 

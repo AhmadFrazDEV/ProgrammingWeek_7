@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+void show(int start, int end , int length)
+{
+	
+
+for(int x=1; x<=length ; x++)
+{
+	int c=start+end;
+	cout<<c<<endl;
+	start=end;
+	end=c;
+}
+}
+main()
+{
+	int s,e,l;
+	cout<<"Enter the start point...";
+cin>>s;
+cout<<"Enter the end point...";
+cin>>e;
+cout<<"Length..";
+cin>>l;
+   show(s,e,l);
+	
+} 

@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+void show(int start, int end)
+{
+	for(int i=start ; i<=end ; i++)
+	{
+		cout<<i<<endl;
+	}
+}
+main()
+{
+  	show(1,10);
+} 
